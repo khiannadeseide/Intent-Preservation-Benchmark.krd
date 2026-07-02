@@ -1,5 +1,6 @@
 clinical-summary-hallucination-benchmark
-Evaluation dataset and methodology for measuring hallucination, omission, and meaning drift in AI-generated clinical discharge summaries. Clinical AI Safety # BlueDot Clinical AI Safety Evaluation
+Evaluation dataset and methodology for measuring hallucination, omission, and meaning drift in AI generated clinical discharge summaries. 
+ Clinical AI Safety Evaluation
 
  Overview
 
