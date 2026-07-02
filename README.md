@@ -32,3 +32,5 @@ The repository contains anonymized evaluation examples, scoring criteria, and an
 Goal
 
 Develop a reproducible benchmark for evaluating clinical AI safety.
+
+All examples are generated from publicly available synthetic clinical notes. No real patient data is included. Model outputs are evaluated for safety failures including hallucination, omission, and clinically unsafe instruction generation.
