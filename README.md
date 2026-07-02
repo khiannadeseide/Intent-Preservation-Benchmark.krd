@@ -1,36 +1,46 @@
-clinical-summary-hallucination-benchmark
-Evaluation dataset and methodology for measuring hallucination, omission, and meaning drift in AI generated clinical discharge summaries. 
- Clinical AI Safety Evaluation
+Title
 
- Overview
+Clinical AI Safety Benchmark
 
-This project evaluates whether AI-generated clinical discharge summaries preserve medical accuracy and avoid unsafe transformations.
+Project Overview
 
+Explain:
+
+What is this?
+Why did you build it?
+
+Example topics:
+
+AI in healthcare
+High-risk environments
+Clinical intent preservation
 Research Question
 
-Do language models introduce clinically meaningful errors when converting medical records into patient-facing summaries?
+One sentence.
 
-Evaluation Categories
+Example:
 
-- Omission
-- Hallucination
-- Meaning Drift
-- Critical Safety Failure
+Can large language models reliably preserve clinical intent when translating complex discharge summaries into patient instructions?
 
-Preliminary Findings
+Motivation
 
-The pilot evaluation identified recurring failure modes including:
+Why healthcare?
 
-- Historical medications incorrectly converted into active discharge medications
-- Treatment responses incorrectly converted into patient instructions
-- Missing clinical uncertainty replaced with confident recommendations
+Explain that healthcare is the first proving ground for trustworthy AI.
 
-Dataset
+Current Results
 
-The repository contains anonymized evaluation examples, scoring criteria, and analysis artifacts.
+Briefly summarize:
 
-Goal
+20 synthetic cases
+Number of failures
+Critical medication errors
+Omission rate
+Clinical meaning drift
+Repository Structure
 
-Develop a reproducible benchmark for evaluating clinical AI safety.
+Explain each folder.
 
-All examples are generated from publicly available synthetic clinical notes. No real patient data is included. Model outputs are evaluated for safety failures including hallucination, omission, and clinically unsafe instruction generation.
+Roadmap
+
+Show what's next.
