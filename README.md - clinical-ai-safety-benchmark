@@ -20,14 +20,14 @@ The primary contribution is not a deployed product, but a measurement framework 
 What This Is Not
 
 This project is not:
-A clinical decision-support system
+A clinical decision support system
 A medical device or diagnostic tool
 A system intended for real patient use or deployment
 A replacement for clinician judgment
 A validated healthcare product
-A regulatory-approved system for clinical environments
+A regulatory approved system for clinical environments
 
-It does not provide medical advice and should not be used in any real world healthcare setting without independent clinical validation.
+This does not provide medical advice and should not be used in any real world healthcare setting without independent clinical validation.
 
 Intended Use
 The intended use of this work is:
