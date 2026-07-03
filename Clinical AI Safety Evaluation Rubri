@@ -1,5 +1,3 @@
-Clinical AI Safety Benchmark Scoring Rubric
-
 Purpose
 
 This rubric was developed to evaluate whether Large Language Models (LLMs) preserve the original clinical intent when transforming complex discharge summaries into patient-facing instructions.
