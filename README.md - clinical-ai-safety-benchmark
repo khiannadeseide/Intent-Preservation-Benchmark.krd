@@ -51,6 +51,49 @@ Misleading treatment instructions
 Meaning shift
 Critical loss of follow-up information
 
-These results highlight how high-quality language models generate outputs that seem useful but fail to maintain key elements of the original clinical intent.
+These results highlight how high quality language models generate outputs that seem useful but fail to maintain key elements of the original clinical intent.
 
 Results in full quantified form can be found in the attached results sheet.
+
+
+Repository Contents
+Clinical_AI_Safety_Evaluation.xlsx
+
+Complete benchmark evaluation and scoring results.
+
+Clinical AI Safety Evaluation Rubric
+
+The standardized scoring framework used throughout the benchmark.
+
+examples/
+
+Representative synthetic benchmark cases illustrating common AI failure modes.
+
+docs/
+
+Project methodology, background, and development roadmap.
+
+results/
+
+Summary statistics, visualizations, and benchmark findings.
+
+
+Future Work
+
+This repository represents the first stage of a larger research effort focused on trustworthy AI evaluation.
+
+Planned future work includes:
+
+Expanding the benchmark beyond the initial pilot.
+Evaluating multiple frontier language models.
+Incorporating clinical expert validation.
+Automating portions of the evaluation pipeline.
+Releasing larger open-source benchmark datasets.
+Developing AI reliability infrastructure that supports safe deployment in regulated and high-impact environments.
+
+Healthcare is the starting point—not because it is the final destination, but because it provides one of the clearest environments for understanding whether AI systems can reliably preserve human intent before they are deployed more broadly.
+
+
+License
+
+This repository contains synthetic benchmark examples developed for AI safety research. No real patient information is included. The project is intended to support open research, reproducibility, and collaboration within the AI safety community.
