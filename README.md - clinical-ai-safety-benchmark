@@ -5,18 +5,7 @@ Project Overview
 The Large Language Models have been under investigation for their potential use in generating healthcare-related documents. Although many LLMs can generate fluent texts, fluency alone is not enough for the environment that requires preservation of clinical intent.
 This benchmark is an open-source tool that is intended to evaluate if LLMs can maintain clinical intent when translating complex discharge notes to simple patient instructions.
 Instead of evaluating if LLMs can generate a medically plausible text, this benchmark checks if they are able to preserve important information provided in discharge notes by healthcare professionals.
-
-What This Is
-This project is an early stage, open source AI reliability evaluation framework focused on measuring whether Large Language Models preserve clinical intent in healthcare transitions.
-
-It is a research prototype that:
-Identifies and categorizes failure modes in LLM-generated clinical instructions
-Provides a structured rubric for evaluating clinical meaning preservation
-Produces reproducible benchmarks for analyzing model behavior in high-stakes workflows
-Serves as a foundation for broader work on AI safety and reliability in complex human systems
-
-The primary contribution is not a deployed product, but a measurement framework for understanding where and how AI systems fail in clinically meaningful ways.
-The long term goal is to contribute toward the development of trustworthy AI systems capable of operating safely within complex, real world human environments, beginning with healthcare as a test domain.
+The current focus is on building an open-source evaluation framework rather than deploying a commercial product, though the work may inform future safety infrastructure for healthcare AI systems
 
 
 Motivation
@@ -59,19 +48,19 @@ Results in full quantified form can be found in the attached results sheet.
 
 Repository Contents
 Clinical_AI_Safety_Evaluation.xlsx
-Complete benchmark evaluation and scoring results.
+Complete benchmark evaluation and scoring results. - DONE 
 
 Clinical AI Safety Evaluation Rubric
-The standardized scoring framework used throughout the benchmark.
+The standardized scoring framework used throughout the benchmark. - DONE
 
 examples/
 Representative synthetic benchmark cases illustrating common AI failure modes. - IN PROGRESS
 
-docs/
-Project methodology, background, and development roadmap.
+docs/ 
+Project methodology, background, and development roadmap. - IN PROGRESS
 
 results/
-Summary statistics, visualizations, and benchmark findings.
+Summary statistics, visualizations, and benchmark findings. - IN PROGRESS
 
 
 Future Work
