@@ -39,10 +39,9 @@ Medication misses
 False recommendations
 Misleading treatment instructions
 Meaning shift
-Critical loss of follow-up information
+Critical loss of follow up information
 
 These results highlight how high quality language models generate outputs that seem useful but fail to maintain key elements of the original clinical intent.
-
 Results in full quantified form can be found in the attached results sheet.
 
 
