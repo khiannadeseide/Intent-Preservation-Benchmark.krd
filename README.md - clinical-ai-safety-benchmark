@@ -16,27 +16,6 @@ Produces reproducible benchmarks for analyzing model behavior in high-stakes wor
 Serves as a foundation for broader work on AI safety and reliability in complex human systems
 
 The primary contribution is not a deployed product, but a measurement framework for understanding where and how AI systems fail in clinically meaningful ways.
-
-What This Is Not
-
-This project is not:
-A clinical decision support system
-A medical device or diagnostic tool
-A system intended for real patient use or deployment
-A replacement for clinician judgment
-A validated healthcare product
-A regulatory approved system for clinical environments
-
-This does not provide medical advice and should not be used in any real world healthcare setting without independent clinical validation.
-
-Intended Use
-The intended use of this work is:
-AI safety research
-Benchmark development
-Model evaluation
-Open source experimentation
-Understanding failure modes in high-stakes language model applications
-
 The long term goal is to contribute toward the development of trustworthy AI systems capable of operating safely within complex, real world human environments, beginning with healthcare as a test domain.
 
 
