@@ -68,8 +68,7 @@ results/
 ── Benchmark_Results.xlsx
 ── Findings.md
 
-prototype/
-- Figma_Prototype.md
+prototype/ - Figma_Prototype.md
 
  docs/
   ─ Execution_Strategy.md
