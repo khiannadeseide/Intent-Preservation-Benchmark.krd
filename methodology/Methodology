@@ -1,0 +1,112 @@
+Methodology
+
+Overview
+
+This document describes the methodology used to develop and evaluate the Intent Preservation Benchmark v0.1.
+
+The benchmark was designed to explore whether large language models faithfully preserve human intent when transforming complex clinical discharge documentation into patient-facing instructions. The methodology emphasizes reproducibility by documenting how benchmark cases were created, evaluated, and analyzed.
+
+
+
+Research Question
+
+The primary research question guiding this benchmark is:
+
+Can large language models preserve human intent when transforming complex clinical information into patient-facing communication?
+
+Rather than evaluating factual correctness alone, this benchmark investigates whether the meaning originally intended by a human expert remains intact after AI-assisted transformation.
+
+
+
+Why Healthcare?
+
+Healthcare was selected as the initial validation domain because it provides high-stakes communication scenarios where preserving human intent is essential.
+
+Clinical discharge planning requires accurate transfer of medications, follow-up instructions, treatment plans, warning signs, and patient education. Even subtle changes in meaning can affect downstream communication between clinicians, patients, caregivers, and other healthcare professionals.
+
+Although the benchmark begins in healthcare, the underlying evaluation framework is intended to be applicable to other safety-critical domains.
+
+
+
+Benchmark Development
+
+The initial benchmark consists of twenty synthetic clinical discharge planning scenarios representing medically complex patient cases.
+
+Synthetic cases were used to:
+
+Protect patient privacy.
+Standardize benchmark construction.
+Control case complexity.
+Ensure reproducibility for future evaluations.
+
+Each benchmark case was independently evaluated using the same methodology.
+
+
+
+Model Evaluation
+
+The initial benchmark evaluated Gemini 1.5 Flash.
+
+For each benchmark case:
+
+1. Original discharge documentation was prepared.
+2. The language model generated patient-facing discharge instructions.
+3. The generated output was manually compared with the original documentation.
+4. Reviewer observations were documented.
+5. Failures were categorized using standardized criteria.
+6. Overall reliability was assessed.
+
+
+
+Evaluation Process
+
+Each benchmark case was reviewed across multiple evaluation dimensions, including:
+
+Information Fidelity
+Intent Preservation
+Information Omission
+Unsupported Assumptions
+Hallucinated Clinical Information
+Clinical Meaning Drift
+Logical Consistency
+Overall Reliability
+
+A standardized evaluation rubric was used to improve consistency across benchmark cases.
+
+
+
+Failure Analysis
+
+Rather than recording isolated mistakes, recurring patterns observed during manual review were organized into standardized failure categories.
+
+This process resulted in the initial Intent Preservation Failure Taxonomy, which classifies common ways language models fail to preserve human intent during complex information transformation.
+
+
+
+Limitations
+
+The current methodology has several limitations:
+
+Twenty benchmark cases.
+Evaluation of a single language model.
+Manual scoring process.
+No inter-rater reliability assessment.
+Synthetic clinical scenarios.
+
+These limitations are appropriate for an initial benchmark release and will inform future methodological improvements.
+
+
+
+Future Methodology
+
+Future versions of the benchmark will include:
+
+Larger benchmark datasets.
+Multiple language model comparisons.
+Automated evaluation pipeline.
+Clinical reviewer validation.
+Inter-rater reliability analysis.
+Expanded failure taxonomy.
+Quantitative reliability metrics.
+
+The long-term objective is to develop a reproducible evaluation methodology that can be applied across multiple high-stakes domains where preserving human intent is critical.
