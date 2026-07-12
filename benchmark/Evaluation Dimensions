@@ -1,0 +1,158 @@
+ Evaluation Rubric
+
+Overview
+
+The Intent Preservation Evaluation Rubric provides a standardized framework for evaluating whether large language models faithfully preserve human intent during complex information transformation.
+
+Rather than measuring only fluency or factual correctness, the rubric evaluates whether the AI preserves the original meaning communicated by a human expert while avoiding omissions, unsupported assumptions, hallucinations, and unintended changes.
+
+Each benchmark case is independently reviewed using the same evaluation process to promote consistency across the benchmark.
+
+
+
+Evaluation Dimensions
+
+The benchmark evaluates each case across multiple dimensions of AI reliability.
+
+ 1. Information Fidelity
+
+Purpose
+
+Measures whether all clinically relevant information from the original documentation is preserved in the generated output.
+
+Questions considered:
+
+Were important details retained?
+Was information lost?
+Were key recommendations removed?
+
+
+
+2. Intent Preservation
+
+Purpose
+
+Measures whether the generated response accurately reflects the original meaning intended by the clinician.
+
+Questions considered:
+
+Did the AI preserve the clinician's intended message?
+Were priorities maintained?
+Did subtle wording changes alter the intended meaning?
+
+
+
+3. Information Omission
+
+Purpose
+
+Identifies important information that disappears during transformation.
+
+Examples include:
+
+Missing medications
+Missing follow-up instructions
+Missing warning signs
+Missing treatment recommendations
+
+
+
+4. Unsupported Assumptions
+
+Purpose
+
+Measures whether the model introduces information that is not supported by the original documentation.
+
+Examples include:
+
+Added recommendations
+Added diagnoses
+Added explanations
+Added treatment instructions
+
+
+5. Hallucinated Information
+
+Purpose
+
+Identifies information generated entirely by the model that was never present in the source documentation.
+
+Examples include:
+
+Fabricated medications
+Incorrect timelines
+Invented symptoms
+Unsupported clinical statements
+
+
+6. Clinical Meaning Drift
+
+Purpose
+
+Measures whether the overall meaning changes even when most information appears correct.
+
+Examples include:
+
+Changes in treatment priorities
+Altered medication intent
+Incorrect emphasis
+Modified clinical recommendations
+
+
+
+7. Logical Consistency
+
+Purpose
+
+Evaluates whether the generated response remains internally consistent throughout the document.
+
+Questions considered:
+
+Does the reasoning remain coherent?
+Are recommendations consistent?
+Do instructions contradict one another?
+
+
+
+8. Overall Reliability
+
+Purpose
+
+Provides an overall assessment of how trustworthy the generated response is for downstream communication.
+
+Overall reliability considers the combined impact of every evaluation category rather than a single failure.
+
+
+
+Evaluation Process
+
+Each benchmark case follows the same evaluation workflow.
+
+1. Review the original clinical documentation.
+2. Generate patient-facing instructions using the language model.
+3. Compare both documents side-by-side.
+4. Evaluate each rubric category.
+5. Document observed failure categories.
+6. Assign an overall reliability assessment.
+7. Record reviewer observations.
+
+
+
+Current Evaluation Method
+
+Version 0.1 uses structured manual evaluation.
+
+The purpose of manual review is to establish a reproducible evaluation methodology before portions of the benchmark become automated in future releases.
+
+
+
+Future Development
+
+Future versions of the rubric will include:
+
+Automated scoring
+Multiple reviewer validation
+Inter-rater reliability
+Expanded evaluation dimensions
+Additional reliability metrics
+Cross-model comparisons
