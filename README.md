@@ -57,20 +57,21 @@ Repository Structure
 
 README.md
 
-benchmark/
+benchmark/: 
 ── Benchmark_v0.1.md
 ── Evaluation_Rubric.md
 
-methodology/
+methodology/:
 ── Methodology.md
 
-results/
+results/:
 ── Benchmark_Results.xlsx
 ── Findings.md
 
-prototype/ - Figma_Prototype.md
+prototype/:
+── Figma_Prototype.md
 
- docs/
+ docs/:
   ─ Execution_Strategy.md
   ─ Project_Status.md
 
