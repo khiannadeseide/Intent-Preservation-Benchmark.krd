@@ -56,24 +56,24 @@ Open-source platform release
 Repository Structure
 
 README.md
-│
-├── benchmark/
-│   ├── Benchmark_v0.1.md
-│   └── Evaluation_Rubric.md
-│
-├── methodology/
-│   └── Methodology.md
-│
-├── results/
-│   ├── Benchmark_Results.xlsx
-│   └── Findings.md
-│
-├── prototype/
-│   └── Figma_Prototype.md
-│
-└── docs/
-    ├── Execution_Strategy.md
-    └── Project_Status.md
+
+benchmark/
+── Benchmark_v0.1.md
+── Evaluation_Rubric.md
+
+methodology/
+── Methodology.md
+
+results/
+── Benchmark_Results.xlsx
+── Findings.md
+
+prototype/
+- Figma_Prototype.md
+
+ docs/
+  ─ Execution_Strategy.md
+  ─ Project_Status.md
 
 
 Initial Benchmark
