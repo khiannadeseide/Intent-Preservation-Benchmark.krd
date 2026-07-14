@@ -1,0 +1,69 @@
+Initial Benchmark Findings
+
+Overview
+
+The initial Intent Preservation Benchmark evaluated twenty complex synthetic clinical discharge scenarios using Gemini 1.5 Flash. The purpose of the pilot was not to determine whether one language model was safe for clinical use, but to evaluate whether intent preservation could be identified, categorized, and measured in a systematic way.
+
+The benchmark successfully demonstrated that recurring reliability failures can be documented using a structured evaluation framework. These findings support the broader hypothesis that preserving human intent represents an important dimension of AI reliability that extends beyond traditional capability benchmarks.
+
+
+
+Key Findings
+
+Across the benchmark, several recurring failure patterns emerged.
+
+The most common observations included:
+
+- Information omitted from the original clinical documentation.
+- Unsupported assumptions introduced by the model.
+- Medication inconsistencies.
+- Subtle changes in clinical meaning.
+- Logical reasoning errors.
+- Hallucinated clinical information.
+
+Although many responses appeared fluent and well written, fluency did not always correspond with faithful preservation of the clinician's original intent.
+
+
+
+Major Observation
+
+One of the most significant findings from the pilot was that reliability failures were often difficult to detect without directly comparing the AI-generated output to the original clinical documentation.
+
+In many cases, responses appeared medically reasonable while still changing important aspects of the intended treatment plan. This suggests that evaluating readability or overall response quality alone is insufficient when AI systems are used in high-stakes environments.
+
+
+
+Benchmark Limitations
+
+The current benchmark represents an initial proof of concept.
+
+Limitations include:
+
+- Twenty benchmark cases.
+- Evaluation of a single language model.
+- Manual human review.
+- Synthetic benchmark scenarios.
+- No inter-rater reliability assessment.
+
+The benchmark is intended to validate the evaluation methodology rather than measure population-level model performance.
+
+
+
+Future Work
+
+Future benchmark development will focus on:
+
+- Expanding the number of benchmark cases.
+- Evaluating multiple frontier language models.
+- Refining the evaluation rubric.
+- Improving the classification of reliability failures.
+- Increasing automation of the evaluation workflow.
+- Incorporating expert feedback into benchmark development.
+
+
+
+Supporting Data
+
+Detailed scoring results, benchmark evaluations, and representative benchmark cases are available within this repository and the accompanying benchmark spreadsheet.
+
+The current findings establish the initial foundation for future versions of the Intent Preservation Benchmark and the development of the Intent Preservation Platform.
