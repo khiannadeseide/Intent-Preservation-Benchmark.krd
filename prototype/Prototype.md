@@ -1,149 +1,68 @@
-Platform Features
+ Intent Preservation Platform Prototype
 
-Overview
+ Overview
 
-The Intent Preservation Platform is designed to provide researchers with a structured environment for evaluating how and where large language models preserve, or fail to preserve, human intent during complex information transformation. The platform combines benchmark datasets, standardized evaluation methods, and interactive workflows into a single research environment.
+The Intent Preservation Platform Prototype is an interactive Figma prototype that demonstrates the planned user experience and research workflow for evaluating how and where large language models preserven, or fail to preserve human intent during complex information transformation.
 
-The features described below represent the planned functionality of the first MVP and will continue evolving as the platform develops.
-
-
-
-Research Dashboard
-
-The Research Dashboard serves as the central workspace for the platform.
-
-Researchers can quickly view:
-
-- Active benchmark projects
-- Recent evaluations
-- Model performance summaries
-- Benchmark statistics
-- Recent platform activity
-- Quick access to benchmark tools
-
-The dashboard provides an overview of ongoing evaluations and serves as the starting point for navigating the platform.
-
-
-
-Benchmark Library
-
-The Benchmark Library organizes all benchmark datasets available within the platform.
-
-Researchers can:
-
-- Browse available benchmark cases
-- Search benchmark collections
-- Filter benchmark scenarios
-- Review benchmark documentation
-- Access representative benchmark examples
-- Prepare benchmark cases for evaluation
-
-The library is designed to support future expansion beyond healthcare into additional safety-critical domains.
-
-
-
-Case Evaluation Workspace
-
-The Case Evaluation Workspace is the core research environment.
-
-Researchers compare:
-
-- Original source documentation
-- AI-generated outputs
-- Evaluation criteria
-- Failure classifications
-- Reviewer observations
-
-The workspace guides users through a structured evaluation process while maintaining consistency across benchmark cases.
-
-
-
-Failure Classification
-
-The platform includes a structured workflow for documenting AI reliability failures.
-
-Researchers can classify observations using standardized categories, including:
-
-- Information omissions
-- Unsupported assumptions
-- Medication inconsistencies
-- Hallucinated information
-- Clinical meaning drift
-- Logical reasoning failures
-- Critical safety concerns
-
-These classifications support consistent benchmark evaluation and future analysis.
-
-
-
-Reliability Scoring
-
-Researchers can record structured assessments of model performance using the evaluation framework.
-
-The scoring system is designed to measure:
-
-- Intent preservation
-- Information fidelity
-- Clinical accuracy
-- Overall reliability
-- Safety impact
-
-Scores provide standardized comparisons across benchmark cases and future language model evaluations.
+Rather than functioning as a completed software platform, the prototype serves as the blueprint for the first functional MVP. It translates the benchmark, evaluation methodology, and research workflow into an interactive platform that researchers can eventually use to evaluate AI-generated outputs in a structured and reproducible way.
 
 
  
- Model Testing
+ Why I Built the Prototype
 
-The Model Testing interface supports evaluation across multiple large language models.
+After completing the initial 20-case benchmark, I wanted to move beyond documenting the research and begin designing how researchers would actually interact with it.
 
-The long-term goal is to compare benchmark performance across different systems while identifying recurring reliability patterns and changes in intent preservation.
+The prototype allowed me to think through the complete evaluation workflow before software development began. Instead of only asking how AI failures could be identified, I wanted to design a platform that would allow researchers to compare original source material with AI-generated outputs, classify reliability failures, document observations, and generate standardized evaluation reports.
 
-Future versions will support expanded model comparison workflows.
+Designing the prototype first also gave me a clearer roadmap for building the MVP and communicating the overall vision to mentors, collaborators, developers, and grant reviewers.
 
+ 
+ Current Features
 
+The current prototype includes interactive demonstrations of:
 
-Results Dashboard
+- Research Dashboard
+- Benchmark Library
+- Case Evaluation Workspace
+- Side-by-side document comparison
+- Failure classification workflow
+- Reliability scorecards
+- Model testing interface
+- Analytics dashboard
+- Results reporting
 
-The Results Dashboard summarizes completed benchmark evaluations.
-
-Researchers can review:
-
-- Completed benchmark reports
-- Aggregate findings
-- Reliability trends
-- Failure distributions
-- Model comparisons
-- Evaluation history
-
-The dashboard is designed to support both individual case analysis and broader benchmark research.
-
-
-Reporting
-
-The platform will generate standardized evaluation reports documenting benchmark outcomes.
-
-Reports will summarize:
-
-- Evaluation scores
-- Reliability assessments
-- Failure classifications
-- Reviewer observations
-- Benchmark summaries
-
-These reports are intended to improve transparency, reproducibility, and consistency across evaluations.
+These features represent the planned functionality of the first MVP and will continue evolving as the platform develops.
 
 
+ 
+ Current Status
 
-Future Development
+Prototype Status:Completed
 
-Future versions of the platform may include:
+Platform Status: Pre-MVP
 
-- Collaborative benchmark reviews
-- Expanded benchmark domains
-- Automated evaluation workflows
-- API integrations
-- Community benchmark contributions
-- Advanced analytics
-- Public benchmark releases
+Design Tool: Figma
 
-Development will continue iteratively as the benchmark expands and additional feedback is incorporated from researchers, mentors, and collaborators.
+The prototype demonstrates the planned platform architecture, navigation, and research workflow. It does not currently perform automated evaluations or generate benchmark scores. Those capabilities will be implemented during development of the first functional MVP.
+
+ 
+
+Interactive Prototype
+
+The current interactive prototype can be viewed here:
+
+
+Figma Prototype
+
+(https://laptop-primer-71015050.figma.site/)
+
+
+Next Steps
+
+The next stage of the project is developing the first functional MVP of the Intent Preservation Platform.
+
+Development will focus on implementing the benchmark workflow, integrating the evaluation framework, supporting structured benchmark evaluations, generating standardized reliability reports, and expanding the platform into an open-source research tool that other researchers can use and build upon.
+
+
+
+
