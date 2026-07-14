@@ -1,8 +1,11 @@
 Project Status
 
+
 Overview
 
 The Intent Preservation Platform is currently in the research and MVP planning stage. The foundational research has been completed through an initial benchmark, evaluation framework, and interactive platform prototype. Current efforts are focused on transitioning the project from research into a functional open-source software platform.
+
+
 
 
 Current Status
@@ -14,6 +17,7 @@ Platform Status: Interactive Prototype
 Benchmark Status: Intent Preservation Benchmark v0.1 Completed
 
 Development Status: Preparing for MVP implementation
+
 
 
 
@@ -29,6 +33,9 @@ The following milestones have been completed:
  Organized the project into a public GitHub repository containing the benchmark, methodology, findings, and supporting documentation.
  Developed an initial execution roadmap and project budget.
 
+
+
+
 Currently In Progress
 
 Current work includes:
@@ -42,9 +49,12 @@ Current work includes:
 
 
 
+
 Current Barriers
 
 The primary barrier to advancing the project is access to funding for software development and technical implementation. While the research methodology, benchmark, documentation, and platform design have been established, additional resources are needed to translate the existing prototype into a functional research platform.
+
+
 
 
 Next Milestone
@@ -52,6 +62,8 @@ Next Milestone
 The next major milestone is development of the first functional MVP, allowing researchers to evaluate benchmark cases, compare AI-generated outputs with source material, classify reliability failures, and generate standardized evaluation reports through a unified platform.
 
 
+
+
 Long term Vision
 
-The long-term objective is to develop an open-source research platform that helps researchers evaluate how and where large language models preserve—or fail to preserve—human intent during complex information transformation. Although healthcare serves as the initial validation domain, the underlying methodology is intended to evolve into a reusable evaluation framework for additional high-stakes domains.
+The long-term objective is to develop an open-source research platform that helps researchers evaluate how and where large language models preserve, or fail to preserve human intent during complex information transformation. Although healthcare serves as the initial validation domain, the underlying methodology is intended to evolve into a reusable evaluation framework for additional high-stakes domains.
