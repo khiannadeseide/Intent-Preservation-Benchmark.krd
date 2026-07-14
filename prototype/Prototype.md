@@ -2,7 +2,7 @@ Platform Features
 
 Overview
 
-The Intent Preservation Platform is designed to provide researchers with a structured environment for evaluating how and where large language models preserve—or fail to preserve—human intent during complex information transformation. The platform combines benchmark datasets, standardized evaluation methods, and interactive workflows into a single research environment.
+The Intent Preservation Platform is designed to provide researchers with a structured environment for evaluating how and where large language models preserve—or fail to preserve, human intent during complex information transformation. The platform combines benchmark datasets, standardized evaluation methods, and interactive workflows into a single research environment.
 
 The features described below represent the planned functionality of the first MVP and will continue evolving as the platform develops.
 
